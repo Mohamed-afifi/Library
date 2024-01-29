@@ -37,4 +37,3 @@ Ensure that the file names of the annotated images match the expected patterns f
 License
 This project is licensed under the MIT License.
 
-Feel free to contribute or report issues at https://github.com/your-username/image-annotation-ocr.
