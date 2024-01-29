@@ -18,11 +18,17 @@ pip install opencv-python openpyxl segment-anything torch supervision
 Download the Arabic OCR library (ArabicOcr) and make sure it's accessible.
 
 pip install 'git+https://github.com/facebookresearch/segment-anything.git'
+
 pip install -q roboflow supervision
+
 !wget -q 'https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth'
+
 !pip install ArabicOcr
+
 !pip install openpyxl
+
 from google.colab import drive
+
 drive.mount('/content/drive')
 
 Adjust the folder_path variable to point to the directory containing the annotated images.
